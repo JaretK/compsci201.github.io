@@ -51,3 +51,7 @@ It's the change in x-coordinate between two bodies (not between a body at time t
 ####When I compile NBody.java, it says "cannot resolve symbol StdDraw." Any thoughts? 
 
 Make sure that you import princeton.* and add princeton.jar [to your library build path](http://www.cs.duke.edu/courses/cps004g/fall07/assign/final/shotgun/addlibrary.html).
+
+####What does A.AAAeBB mean?
+
+The notation A.AAAeBB (where A and B are numbers 0-9) is scientific notation for A.AAA * 10<sup>BB</sup>. This is the numerical format found within your planetary system text files. This values can conveniently be parsed in as <code>double</code> values. 
